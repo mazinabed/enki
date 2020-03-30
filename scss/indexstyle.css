@@ -1,0 +1,32 @@
+.MainC1{
+   border: 2px solid white; 
+   height: 150px;
+}
+.MainC2{
+    border: 2px solid white; 
+    height: 160px;
+ }
+ .MainC3{
+    border: 2px solid white; 
+    height: 210px;
+ }
+ .MainC4{
+    border: 2px solid white; 
+    height: 165px;
+ }
+ .MainC{
+     background-image:url("/../globe.jpg");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+ }
+
+ .title{
+    color: black;
+    position: center;
+
+ }
+ .nav { 
+   background-color: rgb(107, 150, 225); 
+} 

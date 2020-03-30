@@ -1,0 +1,26 @@
+div.jumbotron {
+background-image: url("/../flat-earth.jpg");
+background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.white{
+    color:floralwhite;
+    position: center;
+}
+.title{
+    color: white;
+    position: center;
+}
+.nav { 
+    background-color: rgb(72, 122, 208); 
+ } 
+/* a{
+    color: floralwhite;
+} */
+
+/* a{
+    color: blue;
+} */
+
