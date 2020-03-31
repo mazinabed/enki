@@ -1,11 +1,12 @@
 {
   "development": {
    
+    
     "database": "enki_db",
     "host": "localhost",
-    "port": 3306,
     "dialect": "mysql",
     "operatorsAliases": false
+   
   },
   "test": {
     "username": "root",

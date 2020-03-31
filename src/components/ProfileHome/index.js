@@ -1,21 +1,28 @@
-// import React from 'react'
-// import NavProfileHome from '../NavProfileHome/index'
-// export default function ProfileHome(props){
+import React from 'react'
+import NavProfileHome from '../NavProfileHome/index'
+import MemberSectionOnMHP from '../MemberSectionOnMHP.js'
+import ProfileCard from '../../components/profileCard/ProfileCard'
 
-//     return(
+export default function ProfileHome(props){
 
-//         <>
-//         <NavProfileHome/>
-//     <div className="card">
-//     <div className="Nav-container">
-//       <br/>
-//       <h4>Helllo:</h4>
-//     </div>
-//     <div className="content">
-//       <br/>
-    
-//     </div>
-//   </div>
-//   </>
-//     )
-// }
+
+
+
+    return(
+
+        <>
+        <NavProfileHome/>
+        <div className="container">
+        <div className="row">
+        <div className="col-4">
+        <ProfileCard/>
+        </div>
+        <div className="col-8">
+
+        </div>
+
+        </div>
+        </div>
+  </>
+    )
+}

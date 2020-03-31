@@ -1,6 +1,7 @@
 import ProfileHome from '../components/ProfileHome/index'
 import React, {useEffect, useState} from 'react'
 import axios from 'axios'
+import PictureSlider from '../components/PictureSlider'
 
 
 export default  function ProfilePage(){
@@ -19,9 +20,12 @@ axios
 })
 }, [])
 
+
     return(
 <>
-    <div>ProfilePage</div>
+    <div>
+        <ProfileHome/>
+    </div>
 </>
 
 

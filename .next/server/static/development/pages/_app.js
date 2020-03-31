@@ -115,6 +115,17 @@ module.exports =
 
 /***/ }),
 
+/***/ "./scss/Friendstyle.css":
+/*!******************************!*\
+  !*** ./scss/Friendstyle.css ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./scss/Jumbotronstyle.css":
 /*!*********************************!*\
   !*** ./scss/Jumbotronstyle.css ***!
@@ -130,6 +141,28 @@ module.exports =
 /*!*****************************!*\
   !*** ./scss/indexstyle.css ***!
   \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./scss/titlestyle.css":
+/*!*****************************!*\
+  !*** ./scss/titlestyle.css ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./scss/wrapperstyle.css":
+/*!*******************************!*\
+  !*** ./scss/wrapperstyle.css ***!
+  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -155,13 +188,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_Jumbotronstyle_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scss_Jumbotronstyle_css__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _scss_Cardstyle_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../scss/Cardstyle.css */ "./scss/Cardstyle.css");
 /* harmony import */ var _scss_Cardstyle_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_Cardstyle_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_datepicker_dist_react_datepicker_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-datepicker/dist/react-datepicker.css */ "./node_modules/react-datepicker/dist/react-datepicker.css");
-/* harmony import */ var react_datepicker_dist_react_datepicker_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_datepicker_dist_react_datepicker_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _scss_Friendstyle_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../scss/Friendstyle.css */ "./scss/Friendstyle.css");
+/* harmony import */ var _scss_Friendstyle_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_scss_Friendstyle_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _scss_titlestyle_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../scss/titlestyle.css */ "./scss/titlestyle.css");
+/* harmony import */ var _scss_titlestyle_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_scss_titlestyle_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _scss_wrapperstyle_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../scss/wrapperstyle.css */ "./scss/wrapperstyle.css");
+/* harmony import */ var _scss_wrapperstyle_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_scss_wrapperstyle_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_datepicker_dist_react_datepicker_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-datepicker/dist/react-datepicker.css */ "./node_modules/react-datepicker/dist/react-datepicker.css");
+/* harmony import */ var react_datepicker_dist_react_datepicker_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_datepicker_dist_react_datepicker_css__WEBPACK_IMPORTED_MODULE_7__);
 var _jsxFileName = "/Users/mazinabed/Desktop/enki/src/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
 
 
 
@@ -175,7 +217,7 @@ function MyApp({
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 10,
       columnNumber: 12
     }
   }));

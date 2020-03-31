@@ -378,6 +378,20 @@ exports.push([module.i, ".card {\n  background: #fff;\n  border-radius: 2px;\n  
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./scss/Friendstyle.css":
+/*!******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/postcss-loader/src??__nextjs_postcss!./scss/Friendstyle.css ***!
+  \******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".card {\n  background: #fff;\n  border-radius: 10px;\n  height: 325px;\n  margin: 1rem;\n  position: relative;\n  width: 325px;\n  box-shadow: 0 3px 6px #999, 0 3px 6px #999;\n  text-align: left;\n}\n\n.card > .img-container {\n  height: 100%;\n  overflow: hidden;\n  text-align: center;\n  background:#6CADDC;\n}\n.card > .img-container > img {\n  width: 70%\n}\n\n.card > .content {\n  padding-left: 1rem;\n  padding-right: 1rem;\n  font-size: 15px;\n  height: 100%;\n}\n\n.card > .content > ul {\n  list-style-type: none;\n}\n\n.card > .content > ul > li {\n  margin-top: 10px;\n  height: 100%;\n}\n\n/* .card > .remove {\n  color: #ff1744;\n  font-size: 48px;\n  position: absolute;\n  top: -20px;\n  right: 5px;\n  cursor: pointer;\n}\n\n.card > .remove:hover {\n  color: #d50000;\n} */\n", "",{"version":3,"sources":["Friendstyle.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,mBAAmB;EACnB,aAAa;EACb,YAAY;EACZ,kBAAkB;EAClB,YAAY;EACZ,0CAA0C;EAC1C,gBAAgB;AAClB;;AAEA;EACE,YAAY;EACZ,gBAAgB;EAChB,kBAAkB;EAClB,kBAAkB;AACpB;AACA;EACE;AACF;;AAEA;EACE,kBAAkB;EAClB,mBAAmB;EACnB,eAAe;EACf,YAAY;AACd;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,gBAAgB;EAChB,YAAY;AACd;;AAEA;;;;;;;;;;;GAWG","file":"Friendstyle.css","sourcesContent":[".card {\n  background: #fff;\n  border-radius: 10px;\n  height: 325px;\n  margin: 1rem;\n  position: relative;\n  width: 325px;\n  box-shadow: 0 3px 6px #999, 0 3px 6px #999;\n  text-align: left;\n}\n\n.card > .img-container {\n  height: 100%;\n  overflow: hidden;\n  text-align: center;\n  background:#6CADDC;\n}\n.card > .img-container > img {\n  width: 70%\n}\n\n.card > .content {\n  padding-left: 1rem;\n  padding-right: 1rem;\n  font-size: 15px;\n  height: 100%;\n}\n\n.card > .content > ul {\n  list-style-type: none;\n}\n\n.card > .content > ul > li {\n  margin-top: 10px;\n  height: 100%;\n}\n\n/* .card > .remove {\n  color: #ff1744;\n  font-size: 48px;\n  position: absolute;\n  top: -20px;\n  right: 5px;\n  cursor: pointer;\n}\n\n.card > .remove:hover {\n  color: #d50000;\n} */\n"]}]);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./scss/Jumbotronstyle.css":
 /*!*********************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/postcss-loader/src??__nextjs_postcss!./scss/Jumbotronstyle.css ***!
@@ -402,6 +416,34 @@ exports.push([module.i, "div.jumbotron {\nbackground-image: url(\"/../flat-earth
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
 exports.push([module.i, ".MainC1{\n   border: 2px solid white; \n   height: 150px;\n}\n.MainC2{\n    border: 2px solid white; \n    height: 160px;\n }\n .MainC3{\n    border: 2px solid white; \n    height: 210px;\n }\n .MainC4{\n    border: 2px solid white; \n    height: 165px;\n }\n .MainC{\n     background-image:url(\"/../globe.jpg\");  \n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: 100%;\n    \n }\n\n .title{\n    color: black;\n    position: center;\n\n }\n .nav { \n   background-color: rgb(107, 150, 225); \n} ", "",{"version":3,"sources":["indexstyle.css"],"names":[],"mappings":"AAAA;GACG,uBAAuB;GACvB,aAAa;AAChB;AACA;IACI,uBAAuB;IACvB,aAAa;CAChB;CACA;IACG,uBAAuB;IACvB,aAAa;CAChB;CACA;IACG,uBAAuB;IACvB,aAAa;CAChB;CACA;KACI,qCAAqC;IACtC,2BAA2B;IAC3B,4BAA4B;IAC5B,qBAAqB;;CAExB;;CAEA;IACG,YAAY;IACZ,gBAAgB;;CAEnB;CACA;GACE,oCAAoC;AACvC","file":"indexstyle.css","sourcesContent":[".MainC1{\n   border: 2px solid white; \n   height: 150px;\n}\n.MainC2{\n    border: 2px solid white; \n    height: 160px;\n }\n .MainC3{\n    border: 2px solid white; \n    height: 210px;\n }\n .MainC4{\n    border: 2px solid white; \n    height: 165px;\n }\n .MainC{\n     background-image:url(\"/../globe.jpg\");  \n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: 100%;\n    \n }\n\n .title{\n    color: black;\n    position: center;\n\n }\n .nav { \n   background-color: rgb(107, 150, 225); \n} "]}]);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./scss/titlestyle.css":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/postcss-loader/src??__nextjs_postcss!./scss/titlestyle.css ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".title {\n  width: 70%;\n  text-align: center;\n  font-size: 2rem;\n  text-decoration: underline;\n  color: #2A77AE;\n  margin-bottom: 20px;\n}\n", "",{"version":3,"sources":["titlestyle.css"],"names":[],"mappings":"AAAA;EACE,UAAU;EACV,kBAAkB;EAClB,eAAe;EACf,0BAA0B;EAC1B,cAAc;EACd,mBAAmB;AACrB","file":"titlestyle.css","sourcesContent":[".title {\n  width: 70%;\n  text-align: center;\n  font-size: 2rem;\n  text-decoration: underline;\n  color: #2A77AE;\n  margin-bottom: 20px;\n}\n"]}]);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./scss/wrapperstyle.css":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/postcss-loader/src??__nextjs_postcss!./scss/wrapperstyle.css ***!
+  \*******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".wrapper {\n  padding-top: 20px;\n  background: #ECEFF1;\n  height: 700px;\n  display: flex;\n  flex-flow: row wrap;\n  padding: 10px;\n  justify-content: space-around;\n  align-content: flex-start;\n  overflow: auto;\n}\n", "",{"version":3,"sources":["wrapperstyle.css"],"names":[],"mappings":"AAAA;EACE,iBAAiB;EACjB,mBAAmB;EACnB,aAAa;EACb,aAAa;EACb,mBAAmB;EACnB,aAAa;EACb,6BAA6B;EAC7B,yBAAyB;EACzB,cAAc;AAChB","file":"wrapperstyle.css","sourcesContent":[".wrapper {\n  padding-top: 20px;\n  background: #ECEFF1;\n  height: 700px;\n  display: flex;\n  flex-flow: row wrap;\n  padding: 10px;\n  justify-content: space-around;\n  align-content: flex-start;\n  overflow: auto;\n}\n"]}]);
 
 
 /***/ }),
@@ -3567,6 +3609,67 @@ if (true) {
 
 /***/ }),
 
+/***/ "./scss/Friendstyle.css":
+/*!******************************!*\
+  !*** ./scss/Friendstyle.css ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/postcss-loader/src??__nextjs_postcss!./Friendstyle.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./scss/Friendstyle.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/postcss-loader/src??__nextjs_postcss!./Friendstyle.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./scss/Friendstyle.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/postcss-loader/src??__nextjs_postcss!./Friendstyle.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./scss/Friendstyle.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
 /***/ "./scss/Jumbotronstyle.css":
 /*!*********************************!*\
   !*** ./scss/Jumbotronstyle.css ***!
@@ -3689,6 +3792,128 @@ if (true) {
 
 /***/ }),
 
+/***/ "./scss/titlestyle.css":
+/*!*****************************!*\
+  !*** ./scss/titlestyle.css ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/postcss-loader/src??__nextjs_postcss!./titlestyle.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./scss/titlestyle.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/postcss-loader/src??__nextjs_postcss!./titlestyle.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./scss/titlestyle.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/postcss-loader/src??__nextjs_postcss!./titlestyle.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./scss/titlestyle.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ "./scss/wrapperstyle.css":
+/*!*******************************!*\
+  !*** ./scss/wrapperstyle.css ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/postcss-loader/src??__nextjs_postcss!./wrapperstyle.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./scss/wrapperstyle.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/postcss-loader/src??__nextjs_postcss!./wrapperstyle.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./scss/wrapperstyle.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!../node_modules/postcss-loader/src??__nextjs_postcss!./wrapperstyle.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./scss/wrapperstyle.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
 /***/ "./src/pages/_app.js":
 /*!***************************!*\
   !*** ./src/pages/_app.js ***!
@@ -3708,12 +3933,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_Jumbotronstyle_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_Jumbotronstyle_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _scss_Cardstyle_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../scss/Cardstyle.css */ "./scss/Cardstyle.css");
 /* harmony import */ var _scss_Cardstyle_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_scss_Cardstyle_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_datepicker_dist_react_datepicker_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-datepicker/dist/react-datepicker.css */ "./node_modules/react-datepicker/dist/react-datepicker.css");
-/* harmony import */ var react_datepicker_dist_react_datepicker_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_datepicker_dist_react_datepicker_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _scss_Friendstyle_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../scss/Friendstyle.css */ "./scss/Friendstyle.css");
+/* harmony import */ var _scss_Friendstyle_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_scss_Friendstyle_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _scss_titlestyle_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../scss/titlestyle.css */ "./scss/titlestyle.css");
+/* harmony import */ var _scss_titlestyle_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_scss_titlestyle_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _scss_wrapperstyle_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../scss/wrapperstyle.css */ "./scss/wrapperstyle.css");
+/* harmony import */ var _scss_wrapperstyle_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_scss_wrapperstyle_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_datepicker_dist_react_datepicker_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-datepicker/dist/react-datepicker.css */ "./node_modules/react-datepicker/dist/react-datepicker.css");
+/* harmony import */ var react_datepicker_dist_react_datepicker_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_datepicker_dist_react_datepicker_css__WEBPACK_IMPORTED_MODULE_8__);
 
 var _jsxFileName = "/Users/mazinabed/Desktop/enki/src/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
+
 
 
 
@@ -3725,7 +3959,7 @@ function MyApp(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
+      lineNumber: 10,
       columnNumber: 12
     }
   }));
