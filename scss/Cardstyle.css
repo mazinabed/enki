@@ -1,4 +1,4 @@
-.card {
+.card1 {
   background: #fff;
   border-radius: 2px;
   height: 100%;
@@ -9,7 +9,7 @@
   text-align: left;
 }
 
-.card > .Nav-container {
+.card1 > .Nav-container {
   height: 80px;
   overflow: hidden;
   text-align: center;
@@ -17,17 +17,17 @@
   color:floralwhite;
 }
 
-.card > .content {
+.card1 > .content1 {
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 15px;
 }
 
-.card > .content > ul {
+.card1 > .content1 > ul {
   list-style-type: none;
 }
 
-.card > .content > ul > li {
+.card1 > .content1 > ul > li {
   margin-top: 18px;
 }
 

@@ -4,12 +4,12 @@ import Singup from '../../pages/Signup'
 
 function SignupCard(props) {
   return (
-    <div className="card">
+    <div className="card1">
       <div className="Nav-container">
         <br/>
         <h4>Sign up</h4>
       </div>
-      <div className="content">
+      <div className="content1">
         <Singup/>
       </div>
     </div>

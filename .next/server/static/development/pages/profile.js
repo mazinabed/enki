@@ -238,7 +238,18 @@ function NavProfileHome() {
       lineNumber: 11,
       columnNumber: 1
     }
-  }, "Enki")));
+  }, "Enki")), __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("button", {
+    onClick: () => {
+      localStorage.clear('token');
+      window.location = '/';
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 3
+    }
+  }, "Logout")));
 }
 
 /***/ }),
@@ -666,14 +677,14 @@ function ProfilePage() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 29,
       columnNumber: 5
     }
   }, __jsx(_components_ProfileHome_index__WEBPACK_IMPORTED_MODULE_0__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 30,
       columnNumber: 9
     }
   })));

@@ -10,8 +10,15 @@ export default function NavProfileHome() {
 
 <h1 className="white">Enki</h1>
 </nav>
-
-   
+< >
+  <button
+            onClick={() => {
+              localStorage.clear('token');
+              window.location=('/');
+            }}>
+            Logout
+          </button>
+   </>
 </div>
 
  

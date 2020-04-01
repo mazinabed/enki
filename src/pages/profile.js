@@ -4,7 +4,10 @@ import axios from 'axios'
 import PictureSlider from '../components/PictureSlider'
 
 
+
 export default  function ProfilePage(){
+   
+
 
  const [data, setData] = useState()
   useEffect(()=>{
