@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -550,7 +550,7 @@ class ProfileCard extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 26,
         columnNumber: 9
       }
-    }, "Friends List"), this.state.friends.map(friend => __jsx(_components_profileCard_FriendCard__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    }, "Topics"), this.state.friends.map(friend => __jsx(_components_profileCard_FriendCard__WEBPACK_IMPORTED_MODULE_3__["default"], {
       removeFriend: this.removeFriend,
       id: friend.id,
       key: friend.id,
@@ -692,7 +692,7 @@ function ProfilePage() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!************************************!*\
   !*** multi ./src/pages/profile.js ***!
   \************************************/

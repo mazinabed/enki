@@ -19,16 +19,27 @@ module.exports = function(sequelize, DataTypes) {
     lastname: {
       type: DataTypes.STRING,
       allowNull: true
+      
     },
     
     email: {
       type: DataTypes.STRING,
-      allowNull: true
+      allowNull: true,
+      unique: true,
+      validate: {
+        isEmail: true
+      }
     },
   
     password: {
       type: DataTypes.STRING,
-      allowNull: true
+      allowNull: true,
+      validate: {
+        len: {
+          args: [8, 16],
+          msg: "Password must be between 8 and 16 characters long."
+        }
+      }
     },
     gender: {
       type: DataTypes.STRING,
@@ -53,6 +64,12 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false
     }
   });
+
+  User.associate = function (models) {
+    User.hasMany(models, {
+      onDelete: "cascade"
+    });
+  };
   return Model
 }
   

@@ -2750,7 +2750,7 @@ var ProfileCard = /*#__PURE__*/function (_Component) {
           lineNumber: 26,
           columnNumber: 9
         }
-      }, "Friends List"), this.state.friends.map(function (friend) {
+      }, "Topics"), this.state.friends.map(function (friend) {
         return __jsx(_components_profileCard_FriendCard__WEBPACK_IMPORTED_MODULE_10__["default"], {
           removeFriend: _this2.removeFriend,
           id: friend.id,
