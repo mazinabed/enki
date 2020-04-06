@@ -32,7 +32,7 @@ function Signin() {
           setLoginError(data.message);
         }
         if (data && data.token) {
-          //set cookie
+          //set LocalStorage
           localStorage.setItem("token", data.token)
           Router.push('/profile');
         }

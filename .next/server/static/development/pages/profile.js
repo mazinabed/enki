@@ -639,12 +639,13 @@ function Wrapper(props) {
 /*!******************************!*\
   !*** ./src/pages/profile.js ***!
   \******************************/
-/*! exports provided: default */
+/*! exports provided: default, getSeverSideProps */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ProfilePage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getSeverSideProps", function() { return getSeverSideProps; });
 /* harmony import */ var _components_ProfileHome_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/ProfileHome/index */ "./src/components/ProfileHome/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
@@ -652,8 +653,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_PictureSlider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/PictureSlider */ "./src/components/PictureSlider.js");
 /* harmony import */ var _components_PictureSlider__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_components_PictureSlider__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/mazinabed/Desktop/enki/src/pages/profile.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 
 
@@ -664,6 +668,11 @@ function ProfilePage() {
     1: setData
   } = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])();
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
+    if (!localStorage.getItem('token')) {
+      next_router__WEBPACK_IMPORTED_MODULE_4___default.a.push('/');
+    }
+  });
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(() => {
     axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('/api/profile', {
       headers: {
         Authorization: `Bearer ${localStorage.getItem('token')}`
@@ -673,21 +682,21 @@ function ProfilePage() {
       setData(response.data);
     });
   }, []);
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("div", {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_components_ProfileHome_index__WEBPACK_IMPORTED_MODULE_0__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 5
+      lineNumber: 37,
+      columnNumber: 10
     }
-  }, __jsx(_components_ProfileHome_index__WEBPACK_IMPORTED_MODULE_0__["default"], {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 9
+  }));
+}
+async function getSeverSideProps(context) {
+  return {
+    props: {
+      authenticated: true
     }
-  })));
+  };
 }
 
 /***/ }),
@@ -712,6 +721,17 @@ module.exports = __webpack_require__(/*! /Users/mazinabed/Desktop/enki/src/pages
 /***/ (function(module, exports) {
 
 module.exports = require("axios");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/router");
 
 /***/ }),
 

@@ -2,6 +2,7 @@ import ProfileHome from '../components/ProfileHome/index'
 import React, {useEffect, useState} from 'react'
 import axios from 'axios'
 import PictureSlider from '../components/PictureSlider'
+import Router from 'next/router';
 
 
 
@@ -10,6 +11,12 @@ export default  function ProfilePage(){
 
 
  const [data, setData] = useState()
+
+ useEffect(()=> {
+     if(!localStorage.getItem('token')){
+         Router.push('/')
+     }
+ })
   useEffect(()=>{
 axios
 .get('/api/profile', {
@@ -26,11 +33,18 @@ axios
 
     return(
 <>
-    <div>
-        <ProfileHome/>
-    </div>
+    
+         <ProfileHome/>
+    
 </>
 
 
     );
+}
+export async function getSeverSideProps(context){
+    return{
+        props:{
+            authenticated: true
+        }
+    }
 }

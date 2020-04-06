@@ -2,14 +2,15 @@ import React, { useState } from "react";
 import Link from 'next/link'
 import Router from 'next/router';
 import Datepicker from "../components/DatePicker/Datepick";
+import axios from 'axios'
 
 export default function Signup() {
 
   //const [username, setUsername] = useState();
-  const [password, setPassword] = useState();
-  const [email, setEmail] = useState();
-  const [firstname, setFirstName] = useState();
-  const [lastname, setLastName] = useState();
+  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('');
+  const [firstname, setFirstName] = useState('');
+  const [lastname, setLastName] = useState('');
   // const [male, setMale] = useState();
   // const [female, setFemale] = useState();
   const [gender, setGender] = useState('Male');
@@ -18,39 +19,31 @@ export default function Signup() {
 
   const handleSubmit = e => {
     e.preventDefault();
-    fetch('/api/user', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
 
-      body: JSON.stringify({
+   return axios
+    .post('/api/user', {
+      headers: {
+        Authorization: `Bearer ${localStorage.getItem('token')}`
+      },
         email,
-        password,
         firstname,
         lastname,
-        gender,
-       
-
-      }),
     })
-      .then((r) => r.json())
-      .then((data) => {
-        if (data && data.error) {
-          //setSignupError(data.message);
-          console.log(data.error)
-        }
-        if (data && data.token) {
-          //set cookie
-          cookie.set('token', data.token, { expires: 2 });
-          Router.push('/');
+    .then((r) => {
+        
+      return r.data;
+    })
+    .then((data) => {
+      if (data && data.error) {
+        setLoginError(data.message);
+      }
+        else  {
+           //set LocalStorage
+          //  localStorage.setItem("token", data.token)
+          window.location=('/Signin');
         }
       });
     
-    console.log("password is " + password);
-    console.log("Email is " + email);
-    console.log("FirstName is " + firstname);
-    console.log("LastName is " + lastname);
     
   };
 
