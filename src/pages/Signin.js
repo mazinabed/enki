@@ -3,9 +3,9 @@ import Router from 'next/router';
 import axios from 'axios'
 
 function Signin() {
-  const [loginError, setLoginError] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [loginError, setLoginError] = useState();
+  const [email, setEmail] = useState();
+  const [password, setPassword] = useState();
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -20,7 +20,7 @@ function Signin() {
   
       
         email,
-        password
+        password,
 
     })
       .then((r) => {

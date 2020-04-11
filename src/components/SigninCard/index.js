@@ -1,5 +1,5 @@
 import React from "react";
-import Singin from '../../pages/Signin'
+import Signin from '../../pages/Signin'
 
 
 function SigninCard(props) {
@@ -12,7 +12,7 @@ function SigninCard(props) {
       </div>
       <div className="content1">
         <br/>
-        <Singin/>
+        <Signin/>
       </div>
     </div>
   

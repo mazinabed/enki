@@ -5850,7 +5850,7 @@ function getSeverSideProps(context) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprofile&absolutePagePath=%2FUsers%2Fmazinabed%2FDesktop%2Fenki%2Fsrc%2Fpages%2Fprofile.js ***!
   \****************************************************************************************************************************************/
@@ -5873,5 +5873,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=profile.js.map

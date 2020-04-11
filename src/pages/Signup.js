@@ -28,6 +28,7 @@ export default function Signup() {
         email,
         firstname,
         lastname,
+        password
     })
     .then((r) => {
         
@@ -39,8 +40,8 @@ export default function Signup() {
       }
         else  {
            //set LocalStorage
-          //  localStorage.setItem("token", data.token)
-          window.location=('/Signin');
+           localStorage.setItem("token", data.token)
+          window.location=('/');
         }
       });
     
