@@ -5800,7 +5800,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 
-function ProfilePage() {
+function ProfilePage(user) {
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(),
       data = _useState[0],
       setData = _useState[1];
@@ -5816,15 +5816,15 @@ function ProfilePage() {
         Authorization: "Bearer ".concat(localStorage.getItem('token'))
       }
     }).then(function (response) {
-      console.log(response.data);
       setData(response.data);
+      console.log(response.data);
     });
   }, []);
   return __jsx(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, __jsx(_components_ProfileHome_index__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 39,
       columnNumber: 10
     }
   }));

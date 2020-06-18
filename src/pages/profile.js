@@ -6,7 +6,7 @@ import Router from 'next/router';
 
 
 
-export default  function ProfilePage(){
+export default  function ProfilePage(user){
    
 
 
@@ -18,20 +18,22 @@ export default  function ProfilePage(){
      }
  })
   useEffect(()=>{
-axios
-.get('/api/profile', {
+      
+axios.get('/api/profile', {
     headers: {
         Authorization: `Bearer ${localStorage.getItem('token')}`
       },
 })
 .then(response => {
-    console.log(response.data)
+    
     setData(response.data)
+    console.log(response.data)
 })
 }, [])
 
 
     return(
+  
 <>
     
          <ProfileHome/>

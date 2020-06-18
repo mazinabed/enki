@@ -662,7 +662,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
-function ProfilePage() {
+function ProfilePage(user) {
   const {
     0: data,
     1: setData
@@ -678,15 +678,15 @@ function ProfilePage() {
         Authorization: `Bearer ${localStorage.getItem('token')}`
       }
     }).then(response => {
-      console.log(response.data);
       setData(response.data);
+      console.log(response.data);
     });
   }, []);
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_components_ProfileHome_index__WEBPACK_IMPORTED_MODULE_0__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 39,
       columnNumber: 10
     }
   }));

@@ -21,7 +21,7 @@ if (result) {
     const token = jwt.sign({id: user.id, email: user.email}, process.env.secretkey)
     res.json({
         id: user.id, 
-        email: user.emai,
+        email: user.email,
         
         token})
 }else{
