@@ -1,5 +1,5 @@
 'use strict';
-import user from '../models/user';
+import user from './User';
 //import Art from '../models/Art'
 const Sequelize = require('sequelize');
 const env = process.env.NODE_ENV || 'development';

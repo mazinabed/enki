@@ -1,7 +1,7 @@
 {
   "development": {
-   
-    
+    "username": "root",
+    "password": "Maha1984",
     "database": "enki_db",
     "host": "localhost",
     "dialect": "mysql",
@@ -10,8 +10,8 @@
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "database_test",
+    "password": "Maha1984",
+    "database": "enki_db",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
